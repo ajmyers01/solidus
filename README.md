@@ -49,6 +49,11 @@ Gemfile.
 ```ruby
 gem 'solidus'
 gem 'solidus_auth_devise'
+
+# If Coffe-Script isn't already installed
+group :assets do
+  gem 'coffee-rails'
+end
 ```
 
 Run the `bundle` command to install.
